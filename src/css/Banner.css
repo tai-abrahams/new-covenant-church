@@ -1,0 +1,35 @@
+.Banner{
+    display:flex;
+    flex: 0.5;
+    margin-top: 30px;
+    height: 300px;
+    padding:0px;
+    align-items: center;
+}
+
+.Banner__left{
+    display:flex;
+    flex:0.2;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-right:20px;
+    border-right: 1px solid black;
+    height: 80%;
+    align-items: center;
+}
+
+.Banner__right{
+    display:flex;
+    flex:0.8;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    font-size: 42px;
+    line-height: 40px;
+    align-content: center;
+    color: #414141; 
+}
+
+.Banner__left img{
+    height: 150px;
+    object-fit: contain;
+}
