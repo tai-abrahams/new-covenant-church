@@ -10,9 +10,9 @@ module.exports = {
     entry: './src/index.js',
     mode:"development",
     output: {
-        path: path.resolve(__dirname, 'new-covenant-church/dist'),
+        path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
-        publicPath: "new-covenant-church/dist"
+        publicPath: "https://tai-abrahams.github.io/new-covenant-church/"
     },
     devServer: {
         port: 3000,
